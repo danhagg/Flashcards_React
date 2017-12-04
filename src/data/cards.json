@@ -1,0 +1,343 @@
+{
+	"cards": [{
+			"A": "abs()",
+			"B": "abs(x)",
+			"C": "returns absolute value of a number"
+		},
+		{
+			"A": "all()",
+			"B": "all(iterable)",
+			"C": "returns true when all elements in iterable is true"
+		},
+		{
+			"A": "any()",
+			"B": "any(iterable)",
+			"C": "Checks if any Element of an Iterable is True"
+		},
+		{
+			"A": "ascii()",
+			"B": "ascii(object)",
+			"C": "Returns String Containing Printable Representation"
+		},
+		{
+			"A": "bin()",
+			"B": "bin(x)",
+			"C": "converts integer to binary string"
+		},
+		{
+			"A": "bool()",
+			"B": "bool([x])",
+			"C": "Coverts a Value to Boolean"
+		},
+		{
+			"A": "bytearray()",
+			"B": "bytearray([source[,encoding[,errors]]])",
+			"C": "returns array of given byte size"
+		},
+		{
+			"A": "bytes()",
+			"B": "bytes([source[,encoding[,errors]]])",
+			"C": "returns immutable bytes object"
+		},
+		{
+			"A": "callable()",
+			"B": "callable(object)",
+			"C": "Checks if the Object is Callable"
+		},
+		{
+			"A": "chr()",
+			"B": "chr(i)",
+			"C": "Returns a Character (a string) from an Integer"
+		},
+		{
+			"A": "classmethod()",
+			"B": "@classmethod",
+			"C": "returns class method for given function"
+		},
+		{
+			"A": "compile()",
+			"B": "compile(source,filename,mode,flags=0,dont_inherit=False,optimize=-1)",
+			"C": "Returns a Python code object"
+		},
+		{
+			"A": "complex()",
+			"B": "complex([real[, imag]])",
+			"C": "Creates a Complex Number"
+		},
+		{
+			"A": "delattr()",
+			"B": "delattr(object,name)",
+			"C": "Deletes Attribute From the Object"
+		},
+		{
+			"A": "dict()",
+			"B": "dict(**kwarg), dict(mapping,**kwarg), dict(iterable,**kwarg)",
+			"C": "Creates a Dictionary"
+		},
+		{
+			"A": "dir()",
+			"B": "dir([object])",
+			"C": "Tries to Return Attributes of Object"
+		},
+		{
+			"A": "divmod()",
+			"B": "divmod(a,b)",
+			"C": "Returns a Tuple of Quotient and Remainder"
+		},
+		{
+			"A": "enumerate()",
+			"B": "enumerate(iterable, start=0)",
+			"C": "Returns an Enumerate Object"
+		},
+		{
+			"A": "eval()",
+			"B": "eval(expression,globals=None,locals=None)",
+			"C": "Runs Python Code Within Program"
+		},
+		{
+			"A": "exec()",
+			"B": "exec(object[,globals[,locals]])",
+			"C": "Executes Dynamically Created Program"
+		},
+		{
+			"A": "filter()",
+			"B": "filter(function,iterable)",
+			"C": "constructs iterator from elements which are true"
+		},
+		{
+			"A": "float()",
+			"B": "float([x])",
+			"C": "returns floating point number from number, string"
+		},
+		{
+			"A": "format()",
+			"B": "format(value[, format_spec])",
+			"C": "returns formatted representation of a value"
+		},
+		{
+			"A": "frozenset()",
+			"B": "frozenset([iterable])",
+			"C": "returns immutable frozenset object"
+		},
+		{
+			"A": "getattr()",
+			"B": "getattr(object,name[,default])",
+			"C": "returns value of named attribute of an object"
+		},
+		{
+			"A": "globals()",
+			"B": "globals()",
+			"C": "returns dictionary of current global symbol table"
+		},
+		{
+			"A": "hasattr()",
+			"B": "hasattr(object,name)",
+			"C": "returns whether object has named attribute"
+		},
+		{
+			"A": "hash()",
+			"B": "hash(object)",
+			"C": "returns hash value of an object"
+		},
+		{
+			"A": "help()",
+			"B": "help([object])",
+			"C": "Invokes the built-in Help System"
+		},
+		{
+			"A": "hex()",
+			"B": "hex(x)",
+			"C": "Converts to Integer to Hexadecimal"
+		},
+		{
+			"A": "id()",
+			"B": "id(object)",
+			"C": "Returns Identify of an Object"
+		},
+		{
+			"A": "input()",
+			"B": "input([prompt])",
+			"C": "reads and returns a line of string"
+		},
+		{
+			"A": "int()",
+			"B": "int(x=0), int(x, base=10)",
+			"C": "returns integer from a number or string"
+		},
+		{
+			"A": "isinstance()",
+			"B": "isinstance(object,classinfo)",
+			"C": "Checks if a Object is an Instance of Class"
+		},
+		{
+			"A": "issubclass()",
+			"B": "issubclass(class,classinfo)",
+			"C": "Checks if a Object is Subclass of a Class"
+		},
+		{
+			"A": "iter()",
+			"B": "iter(object[,sentinel])",
+			"C": "returns iterator for an object"
+		},
+		{
+			"A": "len()",
+			"B": "len(s)",
+			"C": "Returns Length of an Object"
+		},
+		{
+			"A": "list()",
+			"B": "list([iterable])",
+			"C": "creates list in Python"
+		},
+		{
+			"A": "locals()",
+			"B": "locals()",
+			"C": "returns dictionary of current local symbol table"
+		},
+		{
+			"A": "map()",
+			"B": "map(function,iterable,...)",
+			"C": "Applies Function and Returns a List"
+		},
+		{
+			"A": "max()",
+			"B": "max(iterable,*[,key,default]), max(arg1, arg2, *args[, key])",
+			"C": "returns largest element"
+		},
+		{
+			"A": "memoryview()",
+			"B": "memoryview(obj)",
+			"C": "returns memory view of an argument"
+		},
+		{
+			"A": "min()",
+			"B": "min(iterable, *[, key, default]), min(arg1, arg2, *args[, key])",
+			"C": "returns smallest element"
+		},
+		{
+			"A": "next()",
+			"B": "next(iterator[,default])",
+			"C": "Retrieves Next Element from Iterator"
+		},
+		{
+			"A": "object()",
+			"B": "object",
+			"C": "Creates a Featureless Object"
+		},
+		{
+			"A": "oct()",
+			"B": "oct(x)",
+			"C": "converts integer to octal"
+		},
+		{
+			"A": "open()",
+			"B": "open(file,mode='r',buffering=-1,encoding=None,errors=None,newline=None,closefd=True,opener=None)",
+			"C": "Returns a File object"
+		},
+		{
+			"A": "ord()",
+			"B": "ord",
+			"C": "returns Unicode code point for Unicode character"
+		},
+		{
+			"A": "pow()",
+			"B": "pow(x, y[, z])",
+			"C": "returns x to the power of y"
+		},
+		{
+			"A": "print()",
+			"B": "print(*objects,sep=' ',end='\\n',file=sys.stdout,flush=False)",
+			"C": "Prints the Given Object"
+		},
+		{
+			"A": "property()",
+			"B": "property(fget=None,fset=None,fdel=None,doc=None)",
+			"C": "returns a property attribute"
+		},
+		{
+			"A": "range()",
+			"B": "range(stop), range(start,stop[,step])",
+			"C": "return sequence of integers between start and stop"
+		},
+		{
+			"A": "repr()",
+			"B": "repr(object)",
+			"C": "returns printable representation of an object"
+		},
+		{
+			"A": "reversed()",
+			"B": "reversed(seq)",
+			"C": "returns reversed iterator of a sequence"
+		},
+		{
+			"A": "round()",
+			"B": "round(number[,ndigits])",
+			"C": "rounds a floating point number to ndigits places."
+		},
+		{
+			"A": "set()",
+			"B": "set([iterable])",
+			"C": "returns a Python set"
+		},
+		{
+			"A": "setattr()",
+			"B": "setattr(object, name, value)",
+			"C": "sets value of an attribute of object"
+		},
+		{
+			"A": "slice()",
+			"B": "slice(stop), slice(start, stop[, step])",
+			"C": "creates a slice object specified by range()"
+		},
+		{
+			"A": "sorted()",
+			"B": "sorted(iterable, *, key=None, reverse=False)",
+			"C": "returns sorted list from a given iterable"
+		},
+		{
+			"A": "staticmethod()",
+			"B": "@staticmethod",
+			"C": "creates static method from a function"
+		},
+		{
+			"A": "str()",
+			"B": "str(object=''), str(object=b'', encoding='utf-8', errors='strict')",
+			"C": "returns informal representation of an object"
+		},
+		{
+			"A": "sum()",
+			"B": "sum(iterable[,start])",
+			"C": "Add items of an Iterable"
+		},
+		{
+			"A": "super()",
+			"B": "super([type[,object-or-type]])",
+			"C": "Allow you to Refer Parent Class by super"
+		},
+		{
+			"A": "tuple()",
+			"B": "tuple([iterable])",
+			"C": "Creates a Tuple"
+		},
+		{
+			"A": "type()",
+			"B": "type(object), type(name,bases,dict)",
+			"C": "Returns Type of an Object"
+		},
+		{
+			"A": "vars()",
+			"B": "vars([object])",
+			"C": "Returns __dict__ attribute of a class"
+		},
+		{
+			"A": "zip()",
+			"B": "zip(*iterables)",
+			"C": "Returns an Iterator of Tuples"
+		},
+		{
+			"A": "__import__()",
+			"B": "__import__(name,globals=None,locals=None,fromlist=(),level=0)",
+			"C": "Advanced Function Called by import"
+		}
+	]
+}
